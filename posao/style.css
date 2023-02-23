@@ -1,0 +1,95 @@
+.bg-image {
+    height: 100vh;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(pexels-photo-5025669.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.social {
+    display: grid;
+
+    justify-content: center;
+    color: white;
+    font-size: 31px;
+    padding-top: 13px;
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+
+.icons {
+    display: flex;
+    gap: 13px;
+
+}
+
+.icons>a {
+    color: wheat;
+    font-size: 33px;
+    padding: 13px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 29px;
+    gap: 23px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.Opis {
+    padding-left: 55px;
+    padding-top: 133px;
+
+}
+
+.time {
+    border: 1px solid white;
+}
+
+.phone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    padding-top: 77px;
+}
+
+a {
+    color: red;
+}
+
+h2 {
+    padding-top: 33px;
+
+}
+
+
+
+@media screen and (max-width:600px) {
+    h1 {
+        font-size: 23px;
+    }
+
+    .main {
+        font-size: 18px;
+
+    }
+
+    .main>p {
+        text-align: center;
+    }
+
+    .bg-image {
+        height: 100%;
+    }
+}
